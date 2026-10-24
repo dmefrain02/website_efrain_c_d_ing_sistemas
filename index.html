@@ -15,26 +15,55 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="index.html">Efraín Castañeda</a>
-    <nav aria-label="Principal">
-      <ul>
-        <li><a href="index.html" aria-current="page">Inicio</a></li><li><a href="experiencia.html">Experiencia</a></li><li><a href="formacion.html">Formación</a></li><li><a href="herramientas.html">Herramientas</a></li><li><a href="proyectos.html">Proyectos</a></li><li><a href="contacto.html">Contacto</a></li>
+  <nav aria-label="Principal" class="menu-acordeon">
+  <ul class="lista-nivel-1">
+    <!-- Opción 1: Sin submenú -->
+    <li class="item-menu">
+      <a href="index.html">Inicio</a>
+    </li>
+
+    <!-- Opción 2: Con submenú (Acordeón) -->
+    <li class="item-menu item-con-hijos">
+      <input type="checkbox" id="submenu-1" class="toggle-checkbox">
+      <label for="submenu-1" class="etiqueta-menu">Acerca de mí</label>
+      
+      <ul class="lista-nivel-2">
+        <li><a href="experiencia.html">Experiencia Profesional</a></li>
+        <li><a href="formacion.html">Formación</a></li>
+        <li><a href="herramientas.html">Herramientas</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
       </ul>
-    </nav>
+    </li>
+    <!-- Opción 3: Otro elemento -->
+    <li class="item-menu">
+      <a href="contacto.html">Contacto</a>
+    </li>
+  </ul>
+  </nav>
   </div>
 </header>
 
 <main>
-  <div class="hero">
+  <div class="principal">
     <div class="wrap">
-      <div>
-        <h1>Efraín Castañeda Delgado</h1>
-        <p class="role">Ingeniero en Sistemas – QA Senior</p>
-        <p class="lead">Licenciado en Ingeniería en Sistemas, certificado ISTQB Agile Tester e incorporado al Colegio de Profesionales en Informática y Computación. Más de una década asegurando la calidad de software bancario, de telecomunicaciones y comercio electrónico.</p>
-        <div class="cta">
-          <a class="btn primary" href="contacto.html">Contactar</a>
-          <a class="btn" href="assets/docs/CV_Efrain_Castaneda.pdf" download>Descargar CV (PDF)</a>
+      <div class="photo-professional">
+        <img src="assets/img/ecd.jpg" alt="Foto de Efrain C. Delgado"/>
+        <h1>Ing. Efraín Castañeda D.</h1>  
+      <p class="role">Ingeniero en Sistemas – QA Senior</p>
+
+      <section id="resumen">
+        <div id ="resumen">
+          <h2>Resumen profesional</h2>
+          <p class="lead">Licenciado en Ingeniería en Sistemas, certificado ISTQB Agile Tester e incorporado al Colegio de Profesionales en Informática y Computación. Más de una década asegurando la calidad de software bancario, de telecomunicaciones y comercio electrónico.</p>
+          <p class="lead">Amplia experiencia en aseguramiento de la calidad del software con herramientas como Test Manager, Azure DevOps, Visual Studio, Jira con QMetry, XRay, TestRail y Bugzilla. Trabajo con metodologías ágiles como Scrum y Kanban, y realizo pruebas de servicios (API Testing) con Postman y JMeter.</p>
+          <p class="lead">Conocimientos en automatización de pruebas con Selenium WebDriver en Python, junto con GitHub y Jenkins. También en desarrollo de software y bases de datos con C#.NET, ASP.NET, VB.NET, SQL Server, Oracle y MySQL.</p>
         </div>
+      </section>
+
+      <div class="cta">
+        <a class="btn primary" href="contacto.html">Contactar</a>
+        <a class="btn" href="assets/docs/CV_Efrain_Castaneda.pdf" download>Descargar CV (PDF)</a>
+        <a class="btn" href="assets/img/tarjeta-cv.jpeg" download>Tarjeta de presentación CV (JPG)</a>
       </div>
 
       <div class="case" role="img" aria-label="Caso de prueba: el equipo encuentra los defectos antes de producción">
@@ -49,19 +78,9 @@
     </div>
   </div>
 
-  <section id="resumen">
-    <div class="wrap">
-      <h2>Resumen profesional</h2>
-      <div class="cols">
-        <p>Amplia experiencia en aseguramiento de la calidad del software con herramientas como Test Manager, Azure DevOps, Visual Studio, Jira con QMetry, XRay, TestRail y Bugzilla. Trabajo con metodologías ágiles como Scrum y Kanban, y realizo pruebas de servicios (API Testing) con Postman y JMeter.</p>
-        <p>Conocimientos en automatización de pruebas con Selenium WebDriver en Python, junto con GitHub y Jenkins. También en desarrollo de software y bases de datos con C#.NET, ASP.NET, VB.NET, SQL Server, Oracle y MySQL.</p>
-      </div>
-    </div>
-  </section>
-
   <section>
     <div class="wrap">
-      <h2>Explora el sitio</h2>
+      <h2>Mapa del Sitio</h2>
       <ul class="explore">
         <li><a href="experiencia.html"><strong>Experiencia</strong><span>Trayectoria laboral desde 2013 hasta hoy.</span></a></li>
         <li><a href="formacion.html"><strong>Formación</strong><span>Certificaciones, cursos y grados académicos.</span></a></li>

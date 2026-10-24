@@ -15,12 +15,31 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="index.html">Efraín Castañeda</a>
-    <nav aria-label="Principal">
-      <ul>
-        <li><a href="index.html">Inicio</a></li><li><a href="experiencia.html">Experiencia</a></li><li><a href="formacion.html">Formación</a></li><li><a href="herramientas.html" aria-current="page">Herramientas</a></li><li><a href="proyectos.html">Proyectos</a></li><li><a href="contacto.html">Contacto</a></li>
+  <nav aria-label="Principal" class="menu-acordeon">
+  <ul class="lista-nivel-1">
+    <!-- Opción 1: Sin submenú -->
+    <li class="item-menu">
+      <a href="index.html">Inicio</a>
+    </li>
+
+    <!-- Opción 2: Con submenú (Acordeón) -->
+    <li class="item-menu item-con-hijos">
+      <input type="checkbox" id="submenu-1" class="toggle-checkbox">
+      <label for="submenu-1" class="etiqueta-menu">Acerca de mí</label>
+      
+      <ul class="lista-nivel-2">
+        <li><a href="experiencia.html">Experiencia Profesional</a></li>
+        <li><a href="formacion.html">Formación</a></li>
+        <li><a href="herramientas.html">Herramientas</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
       </ul>
-    </nav>
+    </li>
+    <!-- Opción 3: Otro elemento -->
+    <li class="item-menu">
+      <a href="contacto.html">Contacto</a>
+    </li>
+  </ul>
+  </nav>
   </div>
 </header>
 
