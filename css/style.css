@@ -23,6 +23,11 @@ nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px
 
 div.photo-professional img{
   display: inline;
+  width: 1200px;
+  height: 630px;
+}
+div. photo-professional-portada{
+  display: inline;
   width: 120px;
   height: 160px;
   border-radius: 10% 15% 15% 10%;
