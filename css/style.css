@@ -26,7 +26,7 @@ nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 nav a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 
-div div.photo-portada img{
+div.photo-portada img{
   display: inline;
   border-radius: 15% 15% 15% 15%;
   display: inline;
@@ -34,10 +34,7 @@ div div.photo-portada img{
   padding: 2px;
   width: 750px;
   height: 200px;
-  margin-left: center;
-  margin-right: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 15px 15px 40px;
 }
 div.photo-professional img{
   display: inline;
