@@ -27,13 +27,17 @@ nav a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 
 div div.photo-portada img{
-  display: block;
+  display: inline;
   border-radius: 15% 15% 15% 15%;
   display: inline;
-  margin: 2px 5px 2px 30px;
-  padding: 1px;
+  
+  padding: 2px;
   width: 750px;
   height: 200px;
+  margin-left: center;
+  margin-right: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 div.photo-professional img{
   display: inline;
