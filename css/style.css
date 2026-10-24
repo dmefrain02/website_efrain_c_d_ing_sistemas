@@ -21,12 +21,13 @@ nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 nav a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 
-div.photo-portada img{
+div div.photo-portada img{
   display: block;
-  border-radius: 3% 15% 15% 3%;
+  border-radius: 15% 15% 15% 15%;
   display: inline;
-  padding: 10px;
-  width: 700px;
+  margin: 2px 5px 2px 30px;
+  padding: 1px;
+  width: 750px;
   height: 200px;
 }
 div.photo-professional img{
