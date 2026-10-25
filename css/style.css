@@ -26,6 +26,11 @@ nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 nav a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
 
+img.icon{
+  width: 30px;
+  height: 25px;
+}
+
 div.photo-portada img{
   display: inline;
   border-radius: 15% 15% 15% 15%;
@@ -142,7 +147,9 @@ h1{
   border-radius:8px;
   font-weight:600;
   text-decoration:none;
-  border:2px solid var(--ink)
+  border:2px solid var(--ink);
+  width:315px
+
 }
 .btn.primary{
   background:var(--ink);
