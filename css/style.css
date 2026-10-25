@@ -19,7 +19,7 @@ header.top .wrap{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  gap:16px;
+  gap:10px;
 }
 .brand{font:700 1.05rem var(--display);text-decoration:none}
 nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
@@ -158,6 +158,12 @@ h1{
 }
 .btn:hover{
   transform:translateY(-1px)
+}
+.redes-contacto{
+  margin: 25px;
+}
+.redes-contacto td{
+  padding: 2px;
 }
 .case{
   background:var(--surface);
