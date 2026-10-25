@@ -14,3 +14,12 @@ document.querySelectorAll('.menu-acordeon .toggle-checkbox').forEach((checkbox) 
     }
   });
 });
+
+function copiarCorreo(email) {
+  // Copia el texto al portapapeles
+  navigator.clipboard.writeText(email).then(() => {
+    alert("Se ha copiado el correo al portapapeles");
+  }).catch(err => {
+    console.error("Se ha producido un error al copiar: ", err);
+  });
+}
