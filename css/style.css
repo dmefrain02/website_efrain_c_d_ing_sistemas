@@ -4,7 +4,7 @@
   --display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
   --body:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
-}
+} 
 @media (prefers-color-scheme:dark){
   :root{--paper:#0c1623; --surface:#13233a; --ink:#e8eef6; --muted:#9fb0c4; --line:#27405e; --pass:#5fd3a6; --pass-bg:#123a30; --focus:#7fb0ff}
 }
